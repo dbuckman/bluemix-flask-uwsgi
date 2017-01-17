@@ -1,0 +1,9 @@
+applications:
+- path: .
+  memory: 64M
+  instances: 1
+  domain: mybluemix.net
+  name: bluemix-flask-uwsgi
+  host: bluemix-flask-uwsgi
+  disk_quota: 1024M
+  buildpack: python_buildpack
